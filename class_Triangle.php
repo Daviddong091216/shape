@@ -13,7 +13,7 @@ class Triangle implements Shape
     function area()
     {
         $s = ($this->side1 + $this->side2 + $this->side3) / 2;
-        return sqrt($s * ($s - $this->side1) * ($s - $this->side1) * ($s - $this->side1));
+        return sqrt($s * ($s - $this->side1) * ($s - $this->side2) * ($s - $this->side3));
     }
     function perimeter()
     {

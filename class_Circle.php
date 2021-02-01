@@ -8,10 +8,10 @@ class Circle implements Shape
     }
     function area()
     {
-        return pi()*$this->radius * $this->radius;
+        return pi() * $this->radius * $this->radius;
     }
     function perimeter()
     {
-        return 2 * pi()*$this->radius;
+        return 2 * pi() * $this->radius;
     }
 }
